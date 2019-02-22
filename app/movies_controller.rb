@@ -1,6 +1,3 @@
-require_relative './models/movie.rb'
-require_relative '../db/schema.rb'
-require_relative './db/migrate'
 
 def can_be_instantiated_and_then_saved
   movie = Movie.new
